@@ -1,24 +1,20 @@
-body{
-    font-family: 'Caveat', cursive;
+body {
+  font-family: "Caveat", cursive;
 }
 
-header{
-    font-weight: 700;
-    text-align: center;
-    background: url(../img/contacto.jpg);
-    background-position: center;
-    background-size: cover cover;
-    height: 10vh;
-    background-repeat: no-repeat;
-    color: white;
-    
+header {
+  font-weight: 700;
+  text-align: center;
+  background: url(../img/contacto.jpg);
+  background-position: center;
+  background-size: cover cover;
+  height: 10vh;
+  background-repeat: no-repeat;
+  color: white;
+  width: 100%;
 }
 
-img{
-
-    image-rendering: auto;
-    width: 100%;
-    
-   
+img {
+  image-rendering: auto;
+  width: 100%;
 }
-

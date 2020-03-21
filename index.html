@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--Titulo de la página en el browser-->
+    <title>My Resto</title>
+    <!--Codificación de carácteres-->
+    <meta charset="UTF-8" />
+    <!--Hoja de estilos propia-->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!--Hoja de Estilos de Bootstrap-->
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+
+    <!--Importo las fuentes-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Caveat:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <!--Esto es para que se vea bien en pantallas más chicas ;)-->
+    <meta
+      name="viewport"
+      content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes"
+    />
+  </head>
+  <!--Acá se escribe todo lo que ve el user-->
+  <body>
+    <!--El encabezado de nuestra página-->
+    <header>
+      <div class="container">
+        <!--Declaro una fila-->
+        <div class="row align-items-center">
+          <!--Divido el header en columnas-->
+          <!--Primero el logo a la izquierda-->
+          <div class="col-md-3">
+            <a href="#home" data-ancla="home">
+              <img src="images/logo.jpg" alt="" class="logo"
+            /></a>
+          </div>
+          <!--Dejo un espacio-->
+          <div class="col-md-5"></div>
+          <!--Pongo el desplegable-->
+          <div class="col-md-4">
+            <ul class="botonera">
+              <li>
+                <a href="#destacados" data-ancla="destacados">Destacados</a>
+              </li>
+              <li><a href="#menu" data-ancla="menu">Menú</a></li>
+              <li><a href="#contacto" data-ancla="contacto">Contacto</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <br />
+    <!--Acá agrego una negrada para que no me quede el main tapado por el header-->
+    <div class="filler"></div>
+    <!--Sección banner Marca-->
+    <div class="banner" id="home">
+      <h1 class="marca">Café Veloz</h1>
+      <h4>Tu mejor café</h4>
+    </div>
+
+    <div class="destacados">
+      <div class="container">
+        <h1 id="destacados">Cafés Destacados</h1>
+      </div>
+      <div class="row row-cols-1 row-cols-md-3">
+        <div class="col mb-4">
+          <div class="card h-100">
+            <img src="images/blog3.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <span class="float-right font-weight-bold">$10</span>
+              <h5 class="card-title">Café</h5>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card h-100">
+            <img src="images/blog2.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <span class="float-right font-weight-bold">$10</span>
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi
+                obcaecati cumque veniam. Eligendi expedita nemo minus obcaecati,
+                sapiente placeat voluptate? Odio repudiandae vel officiis libero
+                tenetur laboriosam voluptates, iste doloribus.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card h-100">
+            <img src="images/curso1.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <span class="float-right font-weight-bold">$10</span>
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam
+                sit, labore veritatis reprehenderit molestiae officia incidunt
+                eos sint officiis, esse, numquam voluptatem adipisci saepe
+                impedit animi similique ducimus laboriosam nam?
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card h-100">
+            <img src="images/blog1.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <span class="float-right font-weight-bold">$10</span>
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Exercitationem eligendi vitae similique, nesciunt dolorem autem
+                sapiente. Corporis debitis quisquam dolores eos eius, quaerat
+                doloribus aliquam fugiat architecto at dignissimos odit.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col mb-4">
+          <div class="card h-100">
+            <img src="images/blog3.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <span class="float-right font-weight-bold">$10</span>
+              <span class="float-right font-weight-bold">$10</span>
+              <h5 class="card-title">Café</h5>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Facilis eveniet vitae eligendi unde pariatur distinctio libero!
+                Aut sed eos, possimus dignissimos vero, repudiandae nulla sunt
+                in fuga quis molestiae nemo.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col mb-4">
+          <div class="card h-100">
+            <img src="images/curso3.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <span class="float-right font-weight-bold">$10</span>
+              <span class="float-right font-weight-bold">$10</span>
+              <h5 class="card-title">Café</h5>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Vel fugit rem doloribus tenetur ducimus maiores. Nulla
+                similique, id consequatur aperiam reprehenderit deserunt,
+                obcaecati dolorum sit autem, debitis fugit praesentium soluta!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="restomenu" id="menu">
+      <!--Codear esto-->
+    </div>
+
+    <footer id="contacto">
+      <!--Codear esto-->
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-2.2.4.min.js"
+      integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js"
+      integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      // A $( document ).ready() block.
+      $(document).ready(function() {
+        $(".top a").click(function(e) {
+          e.preventDefault();
+          var offset = $($(this).attr("href")).offset().top;
+          $("html, body").animate({ scrollTop: offset }, 1000);
+          return false;
+        });
+      });
+    </script>
+  </body>
+</html>
