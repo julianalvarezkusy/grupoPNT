@@ -66,27 +66,42 @@ h5 {
 
 .destacados {
   padding-top: 150px;
-  height: 245vh;
+  height: 280vh;
 }
 
-.menu-general{
+.menu-general {
   color: white;
   text-align: center;
   padding-top: 150px;
-  font-family:"Roboto", sans-serif ;
+  font-family: "Roboto", sans-serif;
 }
 
-#menu{
-  background-color:#212529;
-  width: 100%;
-  margin: 0;
-  position: absolute;
+#menu {
+  background-color: #212529;
+  min-width: 100%;
+  padding-bottom: 50px;
 }
 
-.producto{
+.producto {
   width: 500px;
 }
 
-table{
+table {
   color: white;
+}
+
+.container {
+  width: 100%;
+}
+
+.social img {
+  width: 30%;
+  text-align: center;
+}
+.social {
+  text-align: center;
+}
+footer {
+  padding-top: 150px;
+  padding-bottom: 50px;
 }
