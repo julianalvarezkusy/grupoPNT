@@ -66,5 +66,27 @@ h5 {
 
 .destacados {
   padding-top: 150px;
-  height: 280vh;
+  height: 245vh;
+}
+
+.menu-general{
+  color: white;
+  text-align: center;
+  padding-top: 150px;
+  font-family:"Roboto", sans-serif ;
+}
+
+#menu{
+  background-color:#212529;
+  width: 100%;
+  margin: 0;
+  position: absolute;
+}
+
+.producto{
+  width: 500px;
+}
+
+table{
+  color: white;
 }
