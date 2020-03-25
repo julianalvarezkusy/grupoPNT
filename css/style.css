@@ -8,12 +8,6 @@ header {
   z-index: 34242;
 }
 
-.filler {
-  height: 20vh;
-  background-color: white;
-  position: static;
-}
-
 .logo {
   width: 100px;
 }
@@ -38,7 +32,7 @@ h4 {
   font-weight: 700;
   font-size: 20vh;
   font-family: "Gochi Hand", cursive;
-  padding-top: 150px;
+  padding-top: 250px;
 }
 
 .banner {
@@ -46,7 +40,7 @@ h4 {
   background: url(../images/seamless_leaf_pattern_02.jpg) no-repeat center
     center fixed;
   background-size: 100%;
-  height: 60vh;
+  height: 80vh;
   opacity: 0.7;
 }
 
@@ -90,6 +84,10 @@ h5 {
 
 .producto {
   width: 500px;
+}
+
+.separador {
+  width: 20px;
 }
 
 table {
